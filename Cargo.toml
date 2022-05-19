@@ -16,7 +16,7 @@ bevy_console_parser = { path = "./bevy_console_parser", version = "0.3.0" }
 bevy_egui = "0.13"
 
 [dev-dependencies]
-bevy = "0.7.0"
+bevy = { git = "https://github.com/bevyengine/bevy"}
 
 [workspace]
 members = ["bevy_console_derive", "bevy_console_parser"]
